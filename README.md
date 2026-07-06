@@ -1,15 +1,40 @@
-Project Overview
+Diabetes Prevalence Prediction
+A Machine Learning project that predicts **diabetes prevalence levels** using the **CDC U.S. Chronic Disease Indicators** dataset. The project includes data preprocessing, exploratory data analysis (EDA), model training, evaluation, and an interactive Streamlit dashboard.
 
-This project focuses on predicting diabetes prevalence levels across U.S. states using machine learning techniques. The model classifies prevalence as either High or Low based on health-related indicators from a large public dataset.
+Features
+- Data preprocessing and cleaning
+- Exploratory Data Analysis (EDA)
+- Interactive Streamlit dashboard
+- Multiple Machine Learning models
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest (with GridSearchCV)
+  - XGBoost
+- Model performance comparison
+- ROC Curve and Feature Importance visualization
 
-Dataset Processing
+Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- Matplotlib
+- Streamlit
 
-The original dataset contained 309,215 records, which were cleaned and processed to 11,043 high-quality entries for accurate model training.
+ Dataset
+Source: CDC U.S. Chronic Disease Indicators Dataset
 
-Model Objective
+The dataset contains diabetes prevalence information across U.S. states. After preprocessing, categorical features were encoded and the target variable was classified into **High** and **Low** prevalence levels.
 
-The final model predicts the target variable Prevalence_Level, enabling data-driven insights into diabetes trends.
+Results
+The models were evaluated using:
 
-Technologies & Deployment
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC Curve
 
-The project demonstrates data preprocessing, feature engineering, classification modeling, and deployment using Streamlit.
+A comparison dashboard highlights the best-performing model.
+
