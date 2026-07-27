@@ -25,7 +25,7 @@ Tech Stack
  Dataset
 Source: CDC U.S. Chronic Disease Indicators Dataset
 
-The dataset contains diabetes prevalence information across U.S. states. After preprocessing, categorical features were encoded and the target variable was classified into **High** and **Low** prevalence levels.
+The dataset contains diabetes prevalence information across U.S. states. After preprocessing, categorical features were encoded and the target variable was classified into *High* and *Low* prevalence levels.
 
 Results
 The models were evaluated using:
